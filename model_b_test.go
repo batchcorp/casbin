@@ -16,7 +16,7 @@ package casbin
 
 import (
 	"fmt"
-	"github.com/casbin/casbin/v2/util"
+	"github.com/batchcorp/casbin/v2/util"
 	"testing"
 )
 

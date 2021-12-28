@@ -18,9 +18,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/casbin/casbin/v2/errors"
-	defaultrolemanager "github.com/casbin/casbin/v2/rbac/default-role-manager"
-	"github.com/casbin/casbin/v2/util"
+	"github.com/batchcorp/casbin/v2/errors"
+	defaultrolemanager "github.com/batchcorp/casbin/v2/rbac/default-role-manager"
+	"github.com/batchcorp/casbin/v2/util"
 )
 
 func testGetRoles(t *testing.T, e *Enforcer, res []string, name string, domain ...string) {

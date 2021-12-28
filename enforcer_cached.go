@@ -19,7 +19,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/casbin/casbin/v2/persist/cache"
+	"github.com/batchcorp/casbin/v2/persist/cache"
 )
 
 // CachedEnforcer wraps Enforcer and provides decision cache

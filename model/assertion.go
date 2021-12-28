@@ -18,8 +18,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/casbin/casbin/v2/log"
-	"github.com/casbin/casbin/v2/rbac"
+	"github.com/batchcorp/casbin/v2/log"
+	"github.com/batchcorp/casbin/v2/rbac"
 )
 
 // Assertion represents an expression in a section of the model.
@@ -96,7 +96,7 @@ func (ast *Assertion) buildRoleLinks(rm rbac.RoleManager) error {
 	}
 
 	for _, rule := range ast.Policy {
-		err := ast.RM.BuildRelationship(rule[0], rule[1], rule[2:]...)
+		err := ast.RM.BuildRelationship(rule[0], rule[1], rule[2])
 		if err != nil {
 			return err
 		}

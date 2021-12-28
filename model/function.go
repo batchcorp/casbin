@@ -18,7 +18,7 @@ import (
 	"sync"
 
 	"github.com/Knetic/govaluate"
-	"github.com/casbin/casbin/v2/util"
+	"github.com/batchcorp/casbin/v2/util"
 )
 
 // FunctionMap represents the collection of Function.

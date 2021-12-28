@@ -1,8 +1,8 @@
 package casbin
 
 import (
-	"github.com/casbin/casbin/v2/model"
-	"github.com/casbin/casbin/v2/persist"
+	"github.com/batchcorp/casbin/v2/model"
+	"github.com/batchcorp/casbin/v2/persist"
 )
 
 // DistributedEnforcer wraps SyncedEnforcer for dispatcher.

@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/casbin/casbin/v2/config"
+	"github.com/batchcorp/casbin/v2/config"
 )
 
 var (

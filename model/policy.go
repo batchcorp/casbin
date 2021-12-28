@@ -18,8 +18,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/casbin/casbin/v2/rbac"
-	"github.com/casbin/casbin/v2/util"
+	"github.com/batchcorp/casbin/v2/rbac"
+	"github.com/batchcorp/casbin/v2/util"
 )
 
 type (

@@ -23,7 +23,7 @@ import (
 	"strings"
 
 	"github.com/Knetic/govaluate"
-	"github.com/casbin/casbin/v2/rbac"
+	"github.com/batchcorp/casbin/v2/rbac"
 )
 
 var (

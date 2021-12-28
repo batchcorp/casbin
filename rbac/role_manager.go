@@ -14,7 +14,7 @@
 
 package rbac
 
-import "github.com/casbin/casbin/v2/log"
+import "github.com/batchcorp/casbin/v2/log"
 
 // RoleManager provides interface to define the operations for managing roles.
 type RoleManager interface {
