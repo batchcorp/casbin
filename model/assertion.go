@@ -96,7 +96,7 @@ func (ast *Assertion) buildRoleLinks(rm rbac.RoleManager) error {
 	}
 
 	for _, rule := range ast.Policy {
-		err := ast.RM.BuildRelationship(rule[0], rule[1], rule[2])
+		err := ast.RM.BuildRelationship(rule[0], rule[1], rule[2:]...)
 		if err != nil {
 			return err
 		}

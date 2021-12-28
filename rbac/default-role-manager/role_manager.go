@@ -111,7 +111,7 @@ func (rm *RoleManager) BuildRelationship(name1, name2 string, domains ...string)
 	case 0:
 		domains = []string{defaultDomain}
 		fallthrough
-	case 1:
+	case 1, 2, 3:
 		domainValue, _ := rm.allDomains.LoadOrStore(domains[0], &Roles{})
 		domain := domainValue.(*Roles)
 
@@ -339,7 +339,7 @@ func (rm *RoleManager) PrintRoles() error {
 		})
 		return true
 	})
-	
+
 	rm.logger.LogRole(roles)
 	return nil
 }
